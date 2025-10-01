@@ -30,15 +30,23 @@ python main.py
 ## Example Output
 
 ```
-[0.90, -4.02, -2.93, 4.99]                    # Random coefficients
-0.90*x**3 - 4.02*x**2 - 2.93*x + 4.99       # Polynomial equation
-186.67*x - 1393.01                            # Tangent line at x=10
-473.69                                        # Value at x=10
-
-1. polynomial graph
-2. tangent line graph
-3. both graphs combined
+[-3.7482081877974673, -4.5016147894208345, 4.166184518768379] # Random coefficients
+-3.75*x**2 - 4.50*x + 4.17                                    # Polynomial equation
+379.17 - 79.5*x                                               # Tangent line at x=10
+-415.83                                                       # Value at x=10
 ```
+1. polynomial graph
+
+![alt text](public/image.png)
+
+2. tangent line graph
+
+![alt text](public/image-1.png)
+
+3. both graphs combined
+
+![alt text](public/image-2.png)
+
 
 ## How It Works
 
