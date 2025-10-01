@@ -44,7 +44,6 @@ def generate_random_curve() -> str:
             terms.append(f"{coefficient_string}*x**{power}")
     
     polynomial_function = ' + '.join(terms)
-    # Replace "+ -" with "- " for cleaner formatting
     polynomial_function = polynomial_function.replace('+ -', '- ')
 
     print(polynomial_function)
